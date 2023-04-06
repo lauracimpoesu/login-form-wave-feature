@@ -5,7 +5,7 @@
 body {
   background-color: #003232;
   color: #00ffff;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 20px 40px;
   border-radius: 5px;
 }
@@ -33,13 +33,13 @@ body {
 
 .text {
   margin-top: 30px;
-} 
+}
 
 .form-control {
   position: relative;
   margin: 20px 0 40px;
   width: 300px;
-} 
+}
 
 .form-control input {
   background-color: transparent;
@@ -47,9 +47,9 @@ body {
   border-bottom: 2px #fff solid;
   display: block;
   width: 100%;
-  padding: 15px 0; 
+  padding: 15px 0;
   font-size: 18px;
-  color: #fff; 
+  color: #fff;
 }
 
 .btn {
@@ -66,11 +66,11 @@ body {
 }
 
 .btn:hover {
-  color:rgb(214, 64, 255);
+  color: rgb(214, 64, 255);
 }
 
 .btn:focus {
-  outline: 0; 
+  outline: 0;
 }
 
 .btn:active {
@@ -79,14 +79,14 @@ body {
 
 .form-control input:focus,
 .form-control input:valid {
-  outline: 0; 
+  outline: 0;
   border-bottom-color: rgb(0, 191, 255);
 }
 
 .form-control label {
-  position: absolute; 
-  top: 15px; 
-  left: 0; 
+  position: absolute;
+  top: 15px;
+  left: 0;
 }
 
 .form-control label span {
